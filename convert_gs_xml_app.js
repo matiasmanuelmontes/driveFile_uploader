@@ -7,7 +7,7 @@ const fs = require('fs')
 let XMLWriter = require('xml-writer');
 const axios = require('axios'); 
 
-//require('http').createServer( async function(req, res) {
+// la URL desde donde se tiene el google sheet esta en : https://docs.google.com/spreadsheets/d/1ulO9OXnwR19GUzj5di1yhtCe8zNiCYz7easxhcI5OtA/edit#gid=0
 
 async function uploadFileFinal() {
 
